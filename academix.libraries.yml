@@ -1,0 +1,26 @@
+global-styling:
+  css:
+    theme:
+      css/custom.css: {}
+  js:
+    js/custom.js: {}
+    js/SmoothScroll.min.js: {}
+  dependencies:
+    - core/jquery
+
+font-awesome:
+  version: 4.3.0
+  css:
+    theme:
+      includes/font-awesome/css/font-awesome.min.css: {}
+
+academix-lib:
+  css:
+    theme:
+      academix_vendor/main.css: {}
+      academix_vendor/bootstrap-dropdownhover.min.css: {}
+      academix_vendor/animate.css: {}
+  js:
+    academix_vendor/bootstrap-dropdownhover.min.js: {}
+  dependencies:
+    - core/jquery

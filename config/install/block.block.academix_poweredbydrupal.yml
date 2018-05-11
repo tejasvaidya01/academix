@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - academix
+_core:
+  default_config_hash: D0U7tS_VqvROxcTG3YmKkfPY1K3ojkTaFgwH_lFrz_I
+id: poweredbydrupal
+theme: academix
+region: footer_bar_right
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
